@@ -15,7 +15,7 @@ import cv2
 import face_recognition
 from selenium import webdriver
 from time import sleep
-client = wolframalpha.Client('PT34P8-PRP9LVR6K4')
+client = wolframalpha.Client('<Client ID>')
 i = 0
 def talkToMe(audio):
     "speaks audio passed as argument"
@@ -48,7 +48,7 @@ def myCommand():
         query = r.recognize_google(audio, language='en-us')
         print('Master ?: ' + query + '\n')
     except sr.UnknownValueError:
-        talkToMe('Sorry Master Jason  I did not get that! Try typing the command in this time!')
+        talkToMe('Sorry Master <NAME>  I did not get that! Try typing the command in this time!')
         query = str(input('Command: '))
     return query
 def insta_cross_refrence_folowers_with_following():
@@ -57,7 +57,7 @@ def insta_cross_refrence_folowers_with_following():
     following_list = []
     followers_list = []
     handle = input()
-    driver = webdriver.Chrome('<path to chrome drive on computer>') #this will save the instance of that chrome drive practically saving the data
+    driver = webdriver.Chrome('<path to chrome driver on computer>') #this will save the instance of that chrome drive practically saving the data
     username = "<Account Username>"
     password = "<Password>"
     driver.get(f"https://www.instagram.com/{handle}/")
