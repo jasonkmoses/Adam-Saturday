@@ -6,7 +6,7 @@ Adam Saturday is a contuining project and is open to new cool commands waiting t
 
 Feel free to add what you want to it 🤪.
 
-Other projects can be added to it like the Instagram checker project like here and voice commands can issued to that as well.
+Other projects can be added to it like the Instagram checker project like here and voice commands can be issued to this as well.
 
 # Requirements:
 
